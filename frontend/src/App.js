@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-const api_base = "http://localhost:5000";
+const api_base = "https://react-crud-sv5n.onrender.com";
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -11,7 +11,7 @@ function App() {
   }, []);
 
   const GetTodos = () => {
-    fetch(api_base + "/todos")
+    fetch("https://react-crud-sv5n.onrender.com/todos")
       .then((res) => res.json())
       .then((data) => setTodos(data))
       .catch((err) => console.error("Error: ", err));
