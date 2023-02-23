@@ -1,0 +1,26 @@
+GET http://localhost:3002/todos HTTP/1.1
+
+###
+
+POST http://localhost:3002/todo/new Content-Type: application/json
+
+{
+"text": "Done with grossary shopping"
+}
+
+###
+
+DELETE http://localhost:3002/todo/delete/63e61fa2ded2c6f32c9c44af
+
+
+###
+
+GET http://localhost:3002/todo/complete/63e61fa2ded2c6f32c9c44af
+
+###
+
+PUT http://localhost:3002/todo/update/63e61fa2ded2c6f32c9c44af Content-Type: application/json
+
+{
+"text": "Go to Shopping "y
+}
