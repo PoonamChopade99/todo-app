@@ -1,12 +1,12 @@
 # to-do-list-mern
 
-# Getting Started with Create React App
 ## Desktop View
 <img src="desktop-view.PNG">
 
 ## Mobile View
 <img src="mobile-view.PNG">
 
+# Getting Started with Create React App
 ## Available Scripts
 
 In the project directory, you can run:
